@@ -1,0 +1,132 @@
+
+--- Job stdcge.gms Start 08/09/24 10:34:56 47.4.0 838fd78c WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "C:\Users\ACER NITRO R7\Documents\GAMS\Studio\workspace\stdcge.gms"
+    PageSize 0
+    ScrDir "C:\Users\ACER NITRO R7\Documents\GAMS\Studio\workspace\225a\"
+    SysDir C:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: GAMS Demo, for EULA and demo limitations see   G240530/0001CB-GEN
+          https://www.gams.com/latest/docs/UG%5FLicense.html         DC0000
+          C:\GAMS\47\gamslice.txt
+          Demo license for demonstration and instructional purposes only
+Processor information: 1 socket(s), 8 core(s), and 16 thread(s) available
+GAMS 47.4.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- stdcge.gms(404) 3 Mb
+--- Starting execution: elapsed 0:00:00.009
+--- stdcge.gms(303) 4 Mb
+--- Generating NLP model stdcge
+--- stdcge.gms(307) 6 Mb
+---   49 rows  49 columns  179 non-zeroes
+---   309 nl-code  90 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.200E+01, 5.000E+01] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-05, 1.000E+00] - Zero values observed as well
+--- Matrix    [min, max] : [ 5.556E-02, 1.440E+02]
+--- stdcge.gms(307) 4 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.013
+
+CONOPT 4         47.4.0 838fd78c Jul 30, 2024          WEI x86 64bit/MS Window
+
+--- *** This solver runs with a demo license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.35
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 16 threads.
+ 
+ 
+    The user model has 49 constraints and 49 variables
+    with 179 Jacobian elements, 90 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          2.5508490013E+01 (Input point)
+ 
+    The pre-triangular part of the model has 0 constraints and 1 variables.
+    The post-triangular part of the model has 1 constraints and variables.
+    There are 9 definitional constraints and defined variables.
+ 
+    Preprocessed model has 39 constraints and 38 variables
+    with 148 Jacobian elements, 84 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      4.3970382890E-13 (Full preprocessed model)
+                      8.6042284408E-15 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    25.5084900125
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       1   4          2.5508490013E+01 0.0E+00       0
+ 
+ ** Optimal solution. There are no superbasic variables.
+ 
+--- Reading solution for model stdcge
+--- Executing after solve: elapsed 0:00:00.080
+--- stdcge.gms(312) 4 Mb
+--- Generating NLP model stdcge
+--- stdcge.gms(314) 6 Mb
+---   49 rows  49 columns  175 non-zeroes
+---   295 nl-code  86 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.200E+01, 5.000E+01] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E-05, 1.000E+00] - Zero values observed as well
+--- Matrix    [min, max] : [ 5.556E-02, 1.440E+02]
+--- stdcge.gms(314) 4 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.082
+
+CONOPT 4         47.4.0 838fd78c Jul 30, 2024          WEI x86 64bit/MS Window
+
+--- *** This solver runs with a demo license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.35
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+    Will use up to 16 threads.
+ 
+ 
+    The user model has 49 constraints and 49 variables
+    with 175 Jacobian elements, 86 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          9.4405594406E+00 (Input point)
+ 
+    The pre-triangular part of the model has 2 constraints and 3 variables.
+    The post-triangular part of the model has 1 constraints and variables.
+    There are 9 definitional constraints and defined variables.
+ 
+    Preprocessed model has 37 constraints and 36 variables
+    with 134 Jacobian elements, 72 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      9.4405594406E+00 (Full preprocessed model)
+                      6.7021929683E-01 (After scaling)
+                      3.8663914318E-01 (After adjusting individual variables)
+       5   0          1.2564527196E-10                 1.0E+00     1 T  T
+ 
+ ** Feasible solution. Value of objective =    26.0926343813
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+       6   4          2.6092634381E+01 0.0E+00       0
+ 
+ ** Optimal solution. There are no superbasic variables.
+ 
+--- Reading solution for model stdcge
+--- Executing after solve: elapsed 0:00:00.134
+--- stdcge.gms(404) 4 Mb
+*** Open Error for PUTFILE RC=13 FN=C:\Users\ACER NITRO R7\Documents\GAMS\Studio\workspace\listA1.csv
+*** Msg=Permission denied
+*** New file name used is C:\Users\ACER NITRO R7\Documents\GAMS\Studio\workspace\gams1.put
+--- Putfile listA1out C:\Users\ACER NITRO R7\Documents\GAMS\Studio\workspace\gams1.put
+*** Status: Normal completion
+--- Job stdcge.gms Stop 08/09/24 10:34:56 elapsed 0:00:00.136
